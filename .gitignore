@@ -1,0 +1,6 @@
+.DS_Store
+
+/static/*.js
+/static/*.css
+/static/familytree/
+/static/resume/
