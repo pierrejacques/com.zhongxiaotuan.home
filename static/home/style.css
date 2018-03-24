@@ -50,6 +50,9 @@
 
 
 /* style */
+body {
+    margin: 0;
+}
 
 .home-page {
     color: #5e5e5e;
