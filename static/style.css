@@ -1,0 +1,185 @@
+/* functional */
+.border-box {
+    box-sizing: border-box;
+}
+
+.margin-less {
+    margin: 0;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.row-flex {
+    display: flex;
+}
+
+.col-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-shadow {
+    box-shadow: 0 2px 7px #0002;
+}
+
+.align-l {
+    text-align: left;
+}
+
+.align-c {
+    text-align: center;
+}
+
+.align-r {
+    text-align: right;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+
+/* style */
+body {
+    margin: 0;
+}
+
+.home-page {
+    color: #5e5e5e;
+    min-width: 1280px;
+}
+
+.intro > .box {
+    width: 1100px;
+    border: 15px solid #eee;
+    padding: 10px;
+}
+
+.intro-text {
+    justify-content: center;
+    text-align: center;
+    padding: 0 50px;
+    letter-spacing: .2em;
+}
+
+.upper {
+    font-size: 36px;
+    line-height: 100px;
+    white-space: nowrap;
+}
+
+.lower {
+    font-size: 32px;
+    line-height: 100px;
+    border-top: 1px solid #5e5e5e;
+}
+
+.lower.smaller {
+    letter-spacing: .1em;
+    padding-top: 25px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.intro-img {
+    height: 500px;
+}
+
+.content {
+    padding: 100px 0;
+}
+
+.content:nth-of-type(2n) {
+    background: #fafafa;
+}
+
+.content:nth-of-type(2n) {
+    background: #f1f1f1;
+}
+
+.content.clear-bg {
+    background: transparent;
+}
+
+.side-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-img {
+    height: 650px;
+}
+
+.side-img.small {
+    height: 500px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    margin: auto;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.major-title {
+    font-size: 40px;
+    color: #052E61;
+    letter-spacing: .05em;
+    margin: 10px 0;
+}
+
+.minor-title {
+    font-size: 32px;
+    font-weight: lighter;
+    letter-spacing: .05em;
+    color: #052E61;
+    margin: 10px 0;
+}
+
+.character {
+    color: #0076BA;
+}
+
+.desc {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.desc.limit {
+    max-width: 360px;
+}
+
+.link {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 60px;
+    color: #2395ff;
+    text-decoration: underline;
+}
+
+.link::before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    border-top: 7px solid #2395ff;
+    border-left: 7px solid transparent;
+    transform: rotate(45deg);
+}
